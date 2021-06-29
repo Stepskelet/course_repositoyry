@@ -24,12 +24,17 @@ section{
     border: 1px solid black;
 }
 
+.text {
+    padding: 45px 5px 0;
+}
+
 @media (min-width: 992px) {
     .lg-4 {
         width: 33%;
         float: left;
         margin-bottom: 15px;
         padding-right: 15px;
+        position: relative;
     }
 }
 
@@ -39,11 +44,13 @@ section{
         float: left;
         margin-bottom: 15px;
         padding-right: 15px;
+        position: relative;
     }
     .md-12 {
         width: 100%;
         float: left;
         padding-right: 15px;
+        position: relative;
     }
 }
 
@@ -53,16 +60,31 @@ section{
         float: left;
         margin-bottom: 15px;
         padding-right: 15px;
+        position: relative;
     }
 }
 
 .title{
-    border: 1px solid black;
-    width: 60px;
-    height: 30px;
+    border: solid black;
+    border-width: 1px;
+    padding: 5px 10px;
     position:absolute;
     top: 0;
-    right: 0;
-    text-align: center;
+    right: 15px;
     font-size: 125%;
+}
+
+.Borch {
+    background-color:cyan;
+    color:deeppink;
+}
+
+.Pelmeni{
+    background-color: goldenrod;
+    color:mediumblue;
+}
+
+.Vinegret {
+    background-color:purple;
+    color:yellow;
 }
